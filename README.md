@@ -1,4 +1,4 @@
-# Team Messenger
+# Project Team Messenger
 
 ## Technology
 
@@ -7,48 +7,9 @@
 - React
 - Material Icons
 
-## Running the demo
+## How to run the demo:
 
-:
+1. Clone Repo
+2. Npm install
+3. Npm start
 
-1. [Head to CometChat Pro and create an account](https://app.cometchat.com/signup)
-2. From the [dashboard](https://app.cometchat.com/apps), add a new app called **"slack-clone"**
-3. Select this newly added app from the list.
-4. From the Quick Start copy the **APP_ID, APP_REGION and AUTH_KEY**. These will be used later.
-5. Also copy the **REST_API_KEY** from the API & Auth Key tab.
-6. Navigate to the Users tab, and delete all the default users and groups leaving it clean **(very important)**.
-7. Download the repository [here](https://github.com/Daltonic/slack-clone/archive/master.zip) or by running `git clone https://github.com/Daltonic/slack-clone.git` and open it in a code editor.
-8. [Head to Firebase and create a new project](https://console.firebase.google.com)
-9. Create a file called **app.config.js** in the **src** folder of your project.
-10. Import and inject your secret keys in the **app.config.js** file containing your CometChat and Firebase in this manner.
-
-```js
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: 'xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx',
-  authDomain: 'xxx-xxx-xxx-xxx-xxx-xxx-xxx',
-  databaseURL: 'xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx',
-  projectId: 'xxx-xxx-xxx',
-  storageBucket: 'xxx-xxx-xxx-xxx-xxx',
-  messagingSenderId: 'xxx-xxx-xxx',
-  appId: 'xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx',
-  measurementId: 'xxx-xxx-xxx',
-}
-
-const cometChat = {
-  APP_ID: 'xxx-xxx-xxx',
-  AUTH_KEY: 'xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx',
-  REST_KEY: 'xxx-xxx-xxx-xxx-xxx-xxx-xxx-xxx',
-  APP_REGION: 'xx',
-}
-
-export { firebaseConfig, cometChat }
-```
-
-11. Make sure to exclude **app.config.js** in your gitIgnore file from being exposed online.
-12. Run the following command to install the app.
-
-```sh
-    npm install
-    npm start
-```
