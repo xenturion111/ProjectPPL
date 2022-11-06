@@ -1,21 +1,21 @@
 .sidebar {
   color: white;
   background-color: var(--slack-color);
-  border-top: 1px solid #49274b;
+  border-top: 1px solid #b61414;
   max-width: 260px;
   flex: 0.3;
 }
 
 .sidebar__header {
   display: flex;
-  border: 1px solid #49274b;
+  border: 1px solid #b61414;
   padding: 13px;
   padding-bottom: 10px;
 }
 
 .sidebar__header > .MuiSvgIcon-root {
   padding: 8px;
-  color: #49274b;
+  color: #b61414;
   font-size: 18px;
   background-color: white;
   border-radius: 50%;

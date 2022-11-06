@@ -28,6 +28,7 @@ function Header() {
       <div className="header__middle">
         <SearchIcon />
         <input placeholder="Search tutorial-daltonic" />
+        
       </div>
       <div className="header__right">
         <HelpOutlineIcon />
