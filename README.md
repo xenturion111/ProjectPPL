@@ -1,4 +1,17 @@
-# Team Messenger
+# How to Build a Team Messenger Site With React (Slack Clone)
+
+Read the full tutorial here: [**>> How to Build a Team Messenger Site With React (Slack Clone)**](https://www.cometchat.com/tutorials/#)
+
+This example shows How to Build a Team Messenger Site With React (Slack Clone):
+
+![Slack Clone](./screenshots/0.gif)
+<center><figcaption>Slack Clone</figcaption></center>
+
+![Slack Clone](./screenshots/1.png)
+<center><figcaption>Slack Clone Call Screen</figcaption></center>
+
+![Slack Clone](./screenshots/2.png)
+<center><figcaption>Slack Clone Login Screen</figcaption></center>
 
 ## Technology
 
@@ -52,3 +65,15 @@ export { firebaseConfig, cometChat }
     npm install
     npm start
 ```
+
+Questions about running the demo? [Open an issue](https://github.com/Daltonic/slack-clone/issues). We're here to help ✌️
+
+## Useful links
+
+- 🏠 [CometChat Homepage](https://app.cometchat.com/signup)
+- 🚀 [Create your free account](https://app.cometchat.com/apps)
+- 📚 [Documentation](https://prodocs.cometchat.com)
+- 👾 [GitHub](https://www.github.com/cometchat-pro)
+- 🔥 [Firebase](https://console.firebase.google.com)
+- 🔷 [React](https://reactjs.org/)
+- ✨ [Live Demo](https://slack-clone-b1ecf.web.app/)

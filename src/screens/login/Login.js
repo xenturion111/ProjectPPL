@@ -62,10 +62,10 @@ function Login() {
   return (
     <div className="login">
       <div className="login__container">
-        <img src={'/logo.png'} alt="Slack Logo" />
+        <img src={'/kadinche.jpg'} alt="Kadinche Logo" />
 
-        <h4>Sign in to CometChat</h4>
-        <p>cometchat.slack.com</p>
+        <h4>Sign in to KadincheChat</h4>
+        <p>Kadinche.com</p>
         <Button onClick={signIn}>
           {!loading ? 'Sign In With Google' : <div id="loading"></div>}
         </Button>
