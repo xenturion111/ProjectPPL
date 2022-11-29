@@ -12,16 +12,20 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img src="/logo.png" alt="Slack Logo" />
+        <img src="/kadinche.jpg" alt="Kadinche Logo" />
         <h1>Team chat</h1>
         <p>
-          Slack brings all your team communication into one place, makes it all
-          instantly searchable and available wherever you go.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem.
         </p>
 
         <p>
-          Our aim is to make your working life simpler, more pleasant and more
-          productive.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+        optio, eaque rerum! Provident similique accusantium nemo autem.
         </p>
 
         <Button onClick={addChannel}>Create Channel</Button>
