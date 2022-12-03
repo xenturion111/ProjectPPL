@@ -64,25 +64,26 @@ function App() {
 
   return (
     <div className="app">
-      <Router>
-        <Switch>
-          <GuardedRoute
-            path="/channels/:id"
-            auth={isLoggedIn}
-            component={Channel}
-          />
 
-          <GuardedRoute path="/users/:id" auth={isLoggedIn} component={User} />
+        <Router>
+          <Switch>
+            <GuardedRoute
+              path="/channels/:id"
+              auth={isLoggedIn}
+              component={Channel}
+            />
 
-          <GuardedRoute path="/add/channel" auth={isLoggedIn} component={Add} />
+            <GuardedRoute path="/users/:id" auth={isLoggedIn} component={User} />
 
-          <Route path="/login">
-            <Login />
-          </Route>
+            <GuardedRoute path="/add/channel" auth={isLoggedIn} component={Add} />
 
-          <GuardedRoute path="/" auth={isLoggedIn} component={Home} />
-        </Switch>
-      </Router>
+            <Route path="/login">
+              <Login />
+            </Route>
+
+            <GuardedRoute path="/" auth={isLoggedIn} component={Home} />
+          </Switch>
+        </Router>
     </div>
   )
 }
