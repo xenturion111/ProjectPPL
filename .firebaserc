@@ -1,6 +1,5 @@
 {
   "projects": {
-    "default": "slack-clone-b1ecf",
-    "kadincheChat": "slack-clone-22f9c"
+    "default": "kadincheteamchat"
   }
 }

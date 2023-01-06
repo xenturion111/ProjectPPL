@@ -67,7 +67,7 @@ function Add() {
   return (
     <div className="add">
       <form className="add__container">
-        <img src="/kadinche.jpzg" alt="Slack Logo" />
+        <img src="/kadinche.jpg" alt="kadinche Logo" />
         <h1>Add New Channel</h1>
         <div className="add__form">
           <input
@@ -88,7 +88,7 @@ function Add() {
           >
             <option value={''}>Select privacy</option>
             <option value={false}>Public</option>
-            <option value={true}>Private</option>
+            <option value={false}>Private</option>
           </select>
         </div>
 
