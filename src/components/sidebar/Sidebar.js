@@ -13,7 +13,6 @@ import AddIcon from '@material-ui/icons/Add'
 import { CometChat } from '@cometchat-pro/chat'
 import { Link, useHistory } from 'react-router-dom'
 
-
 function Sidebar() {
   const [channels, setChannels] = useState([])
   const [user, setUser] = useState(null)

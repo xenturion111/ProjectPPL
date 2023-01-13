@@ -88,7 +88,7 @@ function Add() {
           >
             <option value={''}>Select privacy</option>
             <option value={false}>Public</option>
-            <option value={false}>Private</option>
+            <option value={true}>Private</option>
           </select>
         </div>
 
